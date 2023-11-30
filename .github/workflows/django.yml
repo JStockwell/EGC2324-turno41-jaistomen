@@ -45,8 +45,8 @@ jobs:
         coverage xml
         
   codacy:
-  
-   runs-on: ubuntu-latest
+
+    runs-on: ubuntu-latest
 
     services:
       postgres:
